@@ -8,7 +8,7 @@
 import Testing
 @testable import ScoreKeeper
 
-struct ScoreKeeperTests {
+struct SwiftTutorialsTests {
 
     @Test("Reset player scores", arguments: [0, 10, 20])
     func resetScores(to newValue: Int) async throws {

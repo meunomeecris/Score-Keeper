@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8A9403A72D645534006BF226 /* SwiftTutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A94039F2D645534006BF226 /* SwiftTutorialsApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8AA5AEAB2D634FEC001F24BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -17,19 +21,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8AA5AE892D633794001F24BA /* ScoreKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AA5AEA72D634FEB001F24BA /* ScoreKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A94039F2D645534006BF226 /* SwiftTutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialsApp.swift; sourceTree = "<group>"; };
+		8AA5AE892D633794001F24BA /* SwiftTutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA5AEA72D634FEB001F24BA /* SwiftTutorialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTutorialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8AA5AE8B2D633794001F24BA /* ScoreKeeper */ = {
+		8AA5AE8B2D633794001F24BA /* SwiftTutorials */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScoreKeeper;
+			path = SwiftTutorials;
 			sourceTree = "<group>";
 		};
-		8AA5AEA82D634FEC001F24BA /* ScoreKeeperTests */ = {
+		8AA5AEA82D634FEC001F24BA /* SwiftTutorialsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScoreKeeperTests;
+			path = SwiftTutorialsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -55,8 +60,9 @@
 		8AA5AE802D633794001F24BA = {
 			isa = PBXGroup;
 			children = (
-				8AA5AE8B2D633794001F24BA /* ScoreKeeper */,
-				8AA5AEA82D634FEC001F24BA /* ScoreKeeperTests */,
+				8A94039F2D645534006BF226 /* SwiftTutorialsApp.swift */,
+				8AA5AE8B2D633794001F24BA /* SwiftTutorials */,
+				8AA5AEA82D634FEC001F24BA /* SwiftTutorialsTests */,
 				8AA5AE8A2D633794001F24BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,8 +70,8 @@
 		8AA5AE8A2D633794001F24BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8AA5AE892D633794001F24BA /* ScoreKeeper.app */,
-				8AA5AEA72D634FEB001F24BA /* ScoreKeeperTests.xctest */,
+				8AA5AE892D633794001F24BA /* SwiftTutorials.app */,
+				8AA5AEA72D634FEB001F24BA /* SwiftTutorialsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8AA5AE882D633794001F24BA /* ScoreKeeper */ = {
+		8AA5AE882D633794001F24BA /* SwiftTutorials */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AA5AE972D633796001F24BA /* Build configuration list for PBXNativeTarget "ScoreKeeper" */;
+			buildConfigurationList = 8AA5AE972D633796001F24BA /* Build configuration list for PBXNativeTarget "SwiftTutorials" */;
 			buildPhases = (
 				8AA5AE852D633794001F24BA /* Sources */,
 				8AA5AE862D633794001F24BA /* Frameworks */,
@@ -86,18 +92,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8AA5AE8B2D633794001F24BA /* ScoreKeeper */,
+				8AA5AE8B2D633794001F24BA /* SwiftTutorials */,
 			);
-			name = ScoreKeeper;
+			name = SwiftTutorials;
 			packageProductDependencies = (
 			);
 			productName = ScoreKeeper;
-			productReference = 8AA5AE892D633794001F24BA /* ScoreKeeper.app */;
+			productReference = 8AA5AE892D633794001F24BA /* SwiftTutorials.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8AA5AEA62D634FEB001F24BA /* ScoreKeeperTests */ = {
+		8AA5AEA62D634FEB001F24BA /* SwiftTutorialsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AA5AEAD2D634FEC001F24BA /* Build configuration list for PBXNativeTarget "ScoreKeeperTests" */;
+			buildConfigurationList = 8AA5AEAD2D634FEC001F24BA /* Build configuration list for PBXNativeTarget "SwiftTutorialsTests" */;
 			buildPhases = (
 				8AA5AEA32D634FEB001F24BA /* Sources */,
 				8AA5AEA42D634FEB001F24BA /* Frameworks */,
@@ -109,13 +115,13 @@
 				8AA5AEAC2D634FEC001F24BA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				8AA5AEA82D634FEC001F24BA /* ScoreKeeperTests */,
+				8AA5AEA82D634FEC001F24BA /* SwiftTutorialsTests */,
 			);
-			name = ScoreKeeperTests;
+			name = SwiftTutorialsTests;
 			packageProductDependencies = (
 			);
 			productName = ScoreKeeperTests;
-			productReference = 8AA5AEA72D634FEB001F24BA /* ScoreKeeperTests.xctest */;
+			productReference = 8AA5AEA72D634FEB001F24BA /* SwiftTutorialsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8AA5AE842D633794001F24BA /* Build configuration list for PBXProject "ScoreKeeper" */;
+			buildConfigurationList = 8AA5AE842D633794001F24BA /* Build configuration list for PBXProject "SwiftTutorials" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -151,8 +157,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8AA5AE882D633794001F24BA /* ScoreKeeper */,
-				8AA5AEA62D634FEB001F24BA /* ScoreKeeperTests */,
+				8AA5AE882D633794001F24BA /* SwiftTutorials */,
+				8AA5AEA62D634FEB001F24BA /* SwiftTutorialsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9403A72D645534006BF226 /* SwiftTutorialsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +201,7 @@
 /* Begin PBXTargetDependency section */
 		8AA5AEAC2D634FEC001F24BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8AA5AE882D633794001F24BA /* ScoreKeeper */;
+			target = 8AA5AE882D633794001F24BA /* SwiftTutorials */;
 			targetProxy = 8AA5AEAB2D634FEC001F24BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -326,7 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScoreKeeper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftTutorials/Preview Content\"";
 				DEVELOPMENT_TEAM = 7T93UNM5FF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -355,7 +362,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScoreKeeper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftTutorials/Preview Content\"";
 				DEVELOPMENT_TEAM = 7T93UNM5FF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -391,7 +398,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScoreKeeper";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTutorials.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTutorials";
 			};
 			name = Debug;
 		};
@@ -409,14 +416,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScoreKeeper";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTutorials.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTutorials";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8AA5AE842D633794001F24BA /* Build configuration list for PBXProject "ScoreKeeper" */ = {
+		8AA5AE842D633794001F24BA /* Build configuration list for PBXProject "SwiftTutorials" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AA5AE952D633796001F24BA /* Debug */,
@@ -425,7 +432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AA5AE972D633796001F24BA /* Build configuration list for PBXNativeTarget "ScoreKeeper" */ = {
+		8AA5AE972D633796001F24BA /* Build configuration list for PBXNativeTarget "SwiftTutorials" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AA5AE982D633796001F24BA /* Debug */,
@@ -434,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AA5AEAD2D634FEC001F24BA /* Build configuration list for PBXNativeTarget "ScoreKeeperTests" */ = {
+		8AA5AEAD2D634FEC001F24BA /* Build configuration list for PBXNativeTarget "SwiftTutorialsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AA5AEAE2D634FEC001F24BA /* Debug */,
