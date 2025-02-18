@@ -6,9 +6,9 @@
 //
 
 import Testing
-@testable import ScoreKeeper
+@testable import Toolbox
 
-struct SwiftTutorialsTests {
+struct ToolboxTests {
 
     @Test("Reset player scores", arguments: [0, 10, 20])
     func resetScores(to newValue: Int) async throws {

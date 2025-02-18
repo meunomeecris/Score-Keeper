@@ -1,16 +1,15 @@
 //
-//  ContentView.swift
-//  ScoreKeeper
+//  File.swift
+//  Toolbox
 //
-//  Created by Cris Messias on 17/02/25.
+//  Created by Cris Messias on 18/02/25.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct ScoreboardView: View {
     @State private var scoreboard = Scoreboard()
     @State private var startingPoints = 0
-
 
     var body: some View {
         VStack(alignment: .leading) {

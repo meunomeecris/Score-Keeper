@@ -12,7 +12,7 @@ import SwiftData
 struct SwiftTutorialsApp: App {
     var body: some Scene {
         WindowGroup {
-            Birthdays()
+            ContentView()
                 .modelContainer(for: Friend.self)
         }
     }
