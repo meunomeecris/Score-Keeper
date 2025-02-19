@@ -9,9 +9,9 @@ import Foundation
 
 struct Scoreboard {
     var players: [Player] = [
-        Player(name: "Cris", score: 0),
-        Player(name: "Kjay", score: 0),
-        Player(name: "Mosquito", score: 0),
+        Player(name: "Cris", score: 0, colorHex: "verde"),
+        Player(name: "Kjay", score: 0, colorHex: "azul"),
+        Player(name: "Mosquito", score: 0, colorHex: "amarelo"),
         ]
     
     var state: GameState = .setup

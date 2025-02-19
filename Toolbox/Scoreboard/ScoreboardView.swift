@@ -46,13 +46,13 @@ struct ScoreboardView: View {
                         HStack {
                             if scoreboard.winners.contains(player) {
                                 Image(systemName: "crown.fill")
-                                    .foregroundStyle(Color.yellow)
+                                    .foregroundStyle(.yellow)
                             }
 
                             TextField("Name", text: $player.name)
                                 .disabled(scoreboard.state != .setup)
+                                .foregroundStyle(Color(player.colorHex))
                         }
-
 
                             Text("\(player.score)")
                                 .opacity(scoreboard.state == .setup ? 0 : 1.0)
@@ -60,7 +60,6 @@ struct ScoreboardView: View {
                             Stepper("\(player.score)", value: $player.score)
                                 .labelsHidden()
                                 .opacity(scoreboard.state == .setup ? 0 : 1.0)
-
                     }
                 }
                 .onDelete { scoreboard.players.remove(atOffsets: $0) }
@@ -71,7 +70,7 @@ struct ScoreboardView: View {
         } //End VStack
 
         Button("Add Player", systemImage: "plus") {
-            scoreboard.players.append(Player(name: "", score: 0))
+            scoreboard.players.append(Player(name: "", score: 0, colorHex: "#499bd1"))
         }
         .opacity(scoreboard.state == .setup ? 1.0 : 0)
 
