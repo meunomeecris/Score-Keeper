@@ -13,6 +13,7 @@ struct Scoreboard {
         Player(name: "Kjay", score: 0),
         Player(name: "Mosquito", score: 0),
         ]
+    
     var state: GameState = .setup
     var doesHighestScoreWin = true
 
